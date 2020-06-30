@@ -101,7 +101,7 @@ button:focus {
 
 @keyframes flipTails {
   from {
-    transform: rotateY(0deg);
+    transform: rotateY(-180deg);
   }
   to {
     transform: rotateY(1620deg);
