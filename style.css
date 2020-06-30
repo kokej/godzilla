@@ -47,7 +47,6 @@ button:focus {
   height: 15rem;
   margin: 2rem 0rem;
   transform-style: preserve-3d;
-  z-index: 1;
 }
 
 #coin div {
