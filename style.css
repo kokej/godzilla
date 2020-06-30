@@ -67,7 +67,6 @@ button:focus {
 
 .animate-heads {
   animation: flipHeads 3s;
-  animation-fill-mode: forwards;
 }
 
 #myVideo {
