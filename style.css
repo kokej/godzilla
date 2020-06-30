@@ -66,7 +66,8 @@ button:focus {
 }
 
 .animate-heads {
-  animation: flipHeads 3s;
+  animation: flipHeads 3s forwards;
+  -webkit-animation: flipHeads 3s forwards;
 }
 
 #myVideo {
@@ -87,6 +88,15 @@ button:focus {
   }
 }
 
+@-webkit-keyframes flipHeads {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(1800deg);
+  }
+}
+
 #tails {
   background: #19535F;
   background-image: url('./assets/gozilla.png');
@@ -94,10 +104,21 @@ button:focus {
 }
 
 .animate-tails {
-  animation: flipTails 3s;
+  animation: flipTails 3s forwards;
+  -webkit-animation: flipTails 3s forwards;
 }
 
 @keyframes flipTails {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(1620deg);
+  }
+}
+
+
+@-webkit-keyframes flipTails {
   from {
     transform: rotateY(0deg);
   }
