@@ -96,7 +96,6 @@ button:focus {
 
 .animate-tails {
   animation: flipTails 3s;
-  animation-fill-mode: forwards;
 }
 
 @keyframes flipTails {
